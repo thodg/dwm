@@ -102,6 +102,8 @@ static Key keys[] = {
 	TAGKEYS(                        0xe8,                      6)
 	TAGKEYS(                        0x5f,                      7)
 	TAGKEYS(                        0xe7,                      8)
+	{ MODKEY,                       XK_Left,   view_shift,     {.ui = 1} },
+	{ MODKEY,                       XK_Right,  view_shift,     {.ui = 2} },
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
 };
 
